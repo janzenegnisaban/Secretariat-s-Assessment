@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+}
+
+.forward-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.main-content {
+  width: 95%;
+}
+
+.table {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.mat-mdc-header-row.mdc-data-table__header-row.cdk-header-row {
+    color: white;
+    background-color: #0165B2;
+}
