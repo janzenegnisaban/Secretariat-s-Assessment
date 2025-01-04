@@ -37,7 +37,7 @@
                        <!-- TypeOfLoan Column -->
                        <ng-container matColumnDef="typeOfLoan">
                         <th mat-header-cell *matHeaderCellDef> Type of Loan </th>
-                        <td mat-cell *matCellDef="let element"> {{element.TypeOfLoan}} </td>
+                        <td mat-cell *matCellDef="let element"> {{element.typeOfLoan}} </td>
                     </ng-container>
 
                        <!-- Purpose Column -->
@@ -56,8 +56,8 @@
                        <ng-container matColumnDef="action">
                         <th mat-header-cell *matHeaderCellDef> Action </th>
                         <td mat-cell *matCellDef="let element"> 
-                            <button>
-                                <img src="" alt="eye button icon">
+                            <button class="button-action">
+                                <img src="/previewpane.svg" alt="eye button icon">
                                 <span>View</span>
                             </button> </td>
                     </ng-container>

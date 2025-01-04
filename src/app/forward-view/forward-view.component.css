@@ -23,3 +23,24 @@ table {
     color: white;
     background-color: #0165B2;
 }
+
+.button-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: white;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 5px;
+  transition: 0.2s ease;
+  gap: 0.3rem;
+}
+
+.button-action:hover {
+  background-color: #0165B2;
+  color: white;
+}
+
+.button-action:active {
+  background-color: #005493;
+}
